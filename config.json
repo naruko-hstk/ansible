@@ -1,0 +1,80 @@
+{
+ 	"mysql": {
+ 		"host": "",
+ 		"user": "",
+ 		"pass": "",
+ 		"name": "",
+ 		"options": null
+ 	},
+ 	"bolt": {
+ 		"host": "",
+ 		"user": "",
+ 		"pass": "",
+ 		"name": "",
+ 		"options": null
+ 	},
+ 	"postgres": {
+ 		"host": "127.0.0.1:5432",
+ 		"user": "semaphore",
+ 		"pass": "semaphore",
+ 		"name": "semaphore",
+ 		"options": {
+ 			"sslmode": "disable"
+ 		}
+ 	},
+ 	"dialect": "postgres",
+ 	"port": "80",
+ 	"interface": "",
+ 	"tmp_path": "/root/ansible",
+ 	"ssh_config_path": "",
+ 	"git_client": "",
+ 	"web_host": "http://ansible.d717.uch",
+ 	"cookie_hash": "7GkMhF2DxxR7Oq8+waFdbdzflxu4e4i1anQZTTZuzP4=",
+ 	"cookie_encryption": "M8w556q7CVMQTGSMFMaYhQTwzd0AIsdmf/yeY+87RQI=",
+ 	"access_key_encryption": "0z3H65U+MepwZf5yEvEPpfk49tL+uXIzLvaVdwUXtDo=",
+ 	"email_alert": false,
+ 	"email_sender": "",
+ 	"email_host": "",
+ 	"email_port": "",
+ 	"email_username": "",
+ 	"email_password": "",
+ 	"email_secure": false,
+ 	"ldap_enable": true,
+ 	"ldap_binddn": "cn=Manager,dc=d717,dc=uch",
+ 	"ldap_bindpassword": "@UCHd717;",
+ 	"ldap_server": "ldap.d717.uch:636",
+ 	"ldap_searchdn": "ou=People,dc=d717,dc=uch",
+ 	"ldap_searchfilter": "(&(objectClass=inetOrgPerson)(uid=%s))",
+ 	"ldap_mappings": {
+ 		"dn": "",
+ 		"mail": "uid",
+ 		"uid": "uid",
+ 		"cn": "cn"
+ 	},
+ 	"ldap_needtls": true,
+ 	"telegram_alert": true,
+ 	"telegram_chat": "-1001993497124",
+ 	"telegram_token": "6851374657:AAHV6fdaLtsOpEYJsSX-PJ6w1UNwdliULqI",
+ 	"slack_alert": false,
+ 	"slack_url": "",
+ 	"rocketchat_alert": false,
+ 	"rocketchat_url": "",
+ 	"microsoft_teams_alert": false,
+ 	"microsoft_teams_url": "",
+ 	"oidc_providers": null,
+ 	"max_task_duration_sec": 0,
+ 	"max_parallel_tasks": 0,
+ 	"runner_registration_token": "",
+ 	"password_login_disable": false,
+ 	"non_admin_can_create_project": false,
+ 	"use_remote_runner": false,
+ 	"runner": {
+ 		"api_url": "",
+ 		"registration_token": "",
+ 		"config_file": "",
+ 		"one_off": false,
+ 		"webhook": "",
+ 		"max_parallel_tasks": 0
+ 	},
+ 	"global_integration_alias": ""
+ }
