@@ -1,0 +1,10 @@
+---
+- hosts: all
+  tasks:
+    - name: 確認主機存活
+      ansible.builtin.ping:
+      register: result
+
+    - name: 回傳結果
+      ansible.builtin.debug:
+        msg: "{{ ansible_hostname }} is alive and return {{ result.ping }}"
